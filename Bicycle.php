@@ -44,23 +44,23 @@ class Bicycle
     }
 
     //set and get color
-    private function setColor(string $currentColor){
+    public function setColor(string $currentColor){
         return $this->color = $currentColor;
     }
-    private function getColor():string{
+    public function getColor():string{
         return $this->color;
     }
 
     //set and get nbWheels
-    private function setNbWheels(int $currentNbWheels){
+    public function setNbWheels(int $currentNbWheels){
         return $this->nbWheels = $currentNbWheels;
     }
-    private function getNbWheels():int{
+    public function getNbWheels():int{
         return $this->nbWheels;
     }
 
     //set and get nbSeats
-    private function setNbSeats(int $currentNbSeats){
+    public function setNbSeats(int $currentNbSeats){
         return $this->nbSeats = $currentNbSeats;
     }
     private function getNbSeats():int{
@@ -68,10 +68,10 @@ class Bicycle
     }
 
     //set and get currentSpeed
-    private function setCurrentSpeed(int $speed){
+    public function setCurrentSpeed(int $speed){
         return $this->currentSpeed = $speed;
     }
-    private function getCurrentSpeed():int{
+    public function getCurrentSpeed():int{
         return $this->currentSpeed;
     }
 
@@ -135,48 +135,48 @@ class Car
     }
 
     //set and get color
-    private function setColor(string $currentColor){
+    public function setColor(string $currentColor){
         return $this->color = $currentColor;
     }
-    private function getColor():string{
+    public function getColor():string{
         return $this->color;
     }
 
     //set and get nbWheels
-    private function setNbWheels(int $currentNbWheels){
+    public function setNbWheels(int $currentNbWheels){
         return $this->nbWheels = $currentNbWheels;
     }
-    private function getNbWheels():int{
+    public function getNbWheels():int{
         return $this->nbWheels;
     }
 
     //set and get nbSeats
-    private function setNbSeats(int $currentNbSeats){
+    public function setNbSeats(int $currentNbSeats){
         return $this->nbSeats = $currentNbSeats;
     }
-    private function getNbSeats():int{
+    public function getNbSeats():int{
         return $this->nbSeats;
     }
 
     //set and get currentSpeed
-    private function setCurrentSpeed(int $speed){
+    public function setCurrentSpeed(int $speed){
         return $this->currentSpeed = $speed;
     }
-    private function getCurrentSpeed():int{
+    public function getCurrentSpeed():int{
         return $this->currentSpeed;
     }
     //set and get energyType
-    private function setEnergyType(string $currentEnergyType){
+    public function setEnergyType(string $currentEnergyType){
         return $this->energyType = $currentEnergyType;
     }
-    private function getEnergyType():string{
+    public function getEnergyType():string{
         return $this->energyType;
     }
     //set and get energyLevel
-    private function setEnergyLevel(int $currentEnergyLevel){
+    public function setEnergyLevel(int $currentEnergyLevel){
         return $this->energyLevel = $currentEnergyLevel;
     }
-    private function getEnergyLevel():int{
+    public function getEnergyLevel():int{
         return $this->energyLevel;
     }
 
