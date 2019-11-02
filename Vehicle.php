@@ -1,9 +1,6 @@
 <?php
 
-
-// Vehicle.php
-
-class Vehicle
+abstract class Vehicle
 {
     const ALLOWED_ENERGIES = [
         'fuel',
